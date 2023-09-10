@@ -1,0 +1,39 @@
+.main-box {
+    background-color: #CBDDDB;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.balloon {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    height: 40px;
+    transition: all 0.2s;
+}
+
+.panel {
+    background-color: #96D4D4;
+    color: #000;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.score {
+    margin-right: 50px;
+}
+
+.game-over {
+    position: absolute;
+    left: 6%;
+    top: 35%;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: red;
+    animation: ease-in;
+}
